@@ -10,7 +10,7 @@ module.exports = {
     },
 
     // GET all users
-    findAll: function (req, res) {
+    findAllUsers: function (req, res) {
         db.User
             .find({})
             .populate("userThoughts")
@@ -20,7 +20,7 @@ module.exports = {
     },
 
     // GET user by ID
-    findById: function (req, res) {
+    findUserById: function (req, res) {
         db.User
             .findOne({ _id: req.params.id })
             .populate("userThoughts")
