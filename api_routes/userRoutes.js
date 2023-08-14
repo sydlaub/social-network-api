@@ -18,7 +18,7 @@ router.route("/update/:id").put(userController.updateUser);
 router.route("/add/:id/friends/:friendId").put(userController.addFriend);
 
 // PUT (update) user to remove friend by ID
-router.route("/remove/:id/friends/friendId").put(userController.removeFriend);
+router.route("/remove/:id/friends/:friendId").put(userController.removeFriend);
 
 // DELETE user
 router.route("delete/:id").delete(userController.deleteUser);
