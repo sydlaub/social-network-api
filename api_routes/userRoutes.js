@@ -29,6 +29,6 @@ router.route("/add/:id/friends/:friendId").put(addFriend);
 router.route("/remove/:id/friends/:friendId").put(removeFriend);
 
 // DELETE user
-router.route("delete/:id").delete(deleteUser);
+router.route("/delete/:id").delete(deleteUser);
 
 module.exports = router;
