@@ -33,7 +33,7 @@ module.exports = {
     updateThought: function (req, res) {
         db.Thought
             .findOneAndUpdate({ _id: req.params.id }, req.body, { new: true })
-            .then(dbModel = res.json(dbModel))
+            .then(dbModel => res.json(dbModel))
             .catch(err => res.status(422).json(err))
     },
 

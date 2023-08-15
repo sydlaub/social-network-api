@@ -10,11 +10,11 @@ const {
 } = require('../controllers/thoughtController');
 
 // stem is api/thought
-// create new thought
-router.route("/post").post(create);
-
 // GET all thoughts
 router.route("/").get(findAllThoughts);
+
+// create new thought
+router.route("/post").post(create);
 
 // GET thought by id
 router.route("/:id").get(findThoughtById);
