@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const formatDate = require("../utils/helpers");
+const formatDate = require("../utils/date");
 const reactions = require("./Reaction");
 // const { timeStamp } = require("console");
 
