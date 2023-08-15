@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(routes);
 
 // connect to the MONGO DB
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social-media_db');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1/socialmedia_db');
 
 app.listen(PORT, () =>
 console.log(`Server now listening on PORT ${PORT}`)
