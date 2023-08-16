@@ -16,7 +16,7 @@ This is a the back end and middleware of a simple social media site, built using
 
 ## Links
 
-[Link to walkthrough video]()
+[Link to walkthrough video](https://drive.google.com/file/d/1ERZb6DYWKeS5YkvalEPi1M_cvsfSqVx7/view)
 
 ## Installation Instructions
 
